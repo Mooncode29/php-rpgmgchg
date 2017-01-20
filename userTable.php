@@ -26,11 +26,6 @@ require 'users.php';
 		<td><?=$client->getEmail();?></td>
 		<td><?=$client->getCreatedAt();?></td>
 	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
 <?php endforeach?>
 </table>
 </body>
